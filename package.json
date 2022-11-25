@@ -1,0 +1,11 @@
+{
+  "name": "test-bpmn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.2.0",
+    "bpmn-engine": "git+ssh://git@github.com:paed01/bpmn-engine.git",
+    "camunda-bpmn-moddle": "^7.0.1"
+  }
+}

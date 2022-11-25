@@ -1,0 +1,44 @@
+Arguments: 
+  /Users/kellywu/.nvm/versions/node/v14.20.1/bin/node /Users/kellywu/.nvm/versions/node/v14.20.1/bin/yarn install
+
+PATH: 
+  /Users/kellywu/Library/Python/3.10/bin:/Users/kellywu/.pyenv/shims:/Users/kellywu/.nvm/versions/node/v14.20.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/kellywu/Library/Python/3.10/bin:/Users/kellywu/.nvm/versions/node/v14.20.1/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.20.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/cst-lib: Not found
+      at Request.params.callback [as _callback] (/Users/kellywu/.nvm/versions/node/v14.20.1/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at Request.self.callback (/Users/kellywu/.nvm/versions/node/v14.20.1/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (events.js:400:28)
+      at Request.<anonymous> (/Users/kellywu/.nvm/versions/node/v14.20.1/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (events.js:400:28)
+      at IncomingMessage.<anonymous> (/Users/kellywu/.nvm/versions/node/v14.20.1/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (events.js:519:28)
+      at IncomingMessage.emit (events.js:412:35)
+      at endReadableNT (internal/streams/readable.js:1333:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "test-bpmn",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+      "cst-lib": "git@github.com:paed01/bpmn-engine.git"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
